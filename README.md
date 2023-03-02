@@ -1,7 +1,7 @@
 # 2nd edition - Get Started - Chapter 1
 
 ## What's With That Name
-real name: ECMAScript
+- real name: ECMAScript
 
 ## Language Specification
 - TC39 manages the language specification, that is consequently submitted to ECMA
