@@ -34,11 +34,12 @@
 <br>
 
 ## Backwards & Forwards
-- JS is 99.9% backward compatible (old code works in new versions of languages) because old websites can't break.
+- JS is 99.9% backward compatible (old code works in new versions of engines) because old websites can't break.
 
 <br>
 
 ## Jumping the Gaps
+- JS is not upward compatible (new code doesn't work in old engines) and so we can use tools like Babel: it transpiles the new JS version code to an old JS version code in order to make this new code be then compatible with the old engine.
 
 <br>
 
