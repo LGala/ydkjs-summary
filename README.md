@@ -1,4 +1,4 @@
-# 2nd edition - Get Started - Chapter 1
+# Get Started - 2nd edition - Chapter 1 - What Is JavaScript?
 
 ## What's With That Name
 - real name: ECMAScript
@@ -72,3 +72,26 @@ if (!Promise.prototype.finally) {
 
 ## Strictly Speaking
 - strict mode is a mod activated by the statement ```"use strict";``` in a file or in a function, used to limit some possibly dangerous/inefficient features (like calling the function parameters with the same name) at a compile and run times.
+
+<br>
+<br>
+<br>
+
+# Get Started - 2nd edition - Chapter 2 - Surveying JS
+
+## Each File is a Program
+- 
+
+<br>
+
+
+## Values
+- 
+
+<br>
+
+
+## Arrays And Objects
+- 
+
+<br>
