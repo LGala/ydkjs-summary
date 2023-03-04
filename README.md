@@ -39,11 +39,21 @@
 <br>
 
 ## Jumping the Gaps
-- JS is not upward compatible (new code doesn't work in old engines) and so we can use tools like Babel: it transpiles the new JS version code to an old JS version code in order to make this new code be then compatible with the old engine.
+- JS is not forward compatible (new code doesn't work in old engines) and so we can use tools like Babel: it transpiles the new JS version code to an old JS version code in order to make this new code be then compatible with the old engine.
 
 <br>
 
 ## Filling the Gaps
+- What happens if I want to provide forward compatibility for an engine native API? I can create a polyfill: when transpiling the code for an old engine version I provide an implementation for this missing new API using a valid old syntax to simulate the new API. 
+- For example: the promise method ```finally``` doesn't exist in a pre ES2019 engine, and so if I want to use this method in a ES2015 engine, during the transpilation I need to provide a fallback implementation with valid ES2015 syntax.
+
+example
+
+```
+if (!Promise.prototype.finally) {
+  // provide an implementation
+}
+```
 
 <br>
 
