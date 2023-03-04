@@ -1,5 +1,7 @@
 # Get Started - 2nd edition - Chapter 1 - What Is JavaScript?
 
+<br>
+
 ## What's With That Name
 - real name: ECMAScript
 
@@ -76,8 +78,11 @@ if (!Promise.prototype.finally) {
 <br>
 <br>
 <br>
+<br>
 
 # Get Started - 2nd edition - Chapter 2 - Surveying JS
+
+<br>
 
 ## Each File is a Program
 - 
