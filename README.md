@@ -50,8 +50,9 @@
 example
 
 ```
+// ES2019 new method
 if (!Promise.prototype.finally) {
-  // provide an implementation
+  // provide an implementation with valid ES2015 syntax
 }
 ```
 
