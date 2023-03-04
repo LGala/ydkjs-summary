@@ -59,11 +59,16 @@ if (!Promise.prototype.finally) {
 <br>
 
 ## What's in an Interpretation?
+- JS is parsed to an AST, the AST is then compiled to a sort of bytecode and the latter is then executed
+- Thanks to this compiling phase, a static analysis phase is done, and so we can get errors before the code execution
 
 <br>
 
 ## Web Assembly (WASM)
+- representation/language directly understood by the JS engine without compilations phases
+- initially created for on performances, is now also focused to be a sort of web lingua franca, you can possibly transpile your favorite language code to wasm and run it on the web.
 
 <br>
 
 ## Strictly Speaking
+- strict mode is a mod activated by the statement ```"use strict";``` in a file or in a function, used to limit some possibly dangerous/inefficient features (like calling the function parameters with the same name) at a compile and run times.
