@@ -85,18 +85,32 @@ if (!Promise.prototype.finally) {
 <br>
 
 ## Each File is a Program
-- 
+- each .js file is evaluated as a separate program (unless some build tools merge all the code together in a single file) that shares its state (for example with export) in the global scope and can cooperate with any another program/.js file 
 
 <br>
-
 
 ## Values
-- 
+- 2 types: primitives (number, string, boolean, bigint, null, undefined, symbol) and object
 
 <br>
 
-
 ## Arrays And Objects
-- 
+- array is a special object with indexes as keys
+- keys in objects are strings
+
+<br>
+
+## Value Type Determination
+- ```typeof```keyword returns inconsistent results.
+
+example
+
+```
+typeof undefined;           // "undefined"
+typeof null;                // "object"
+typeof { "a": 1 };          // "object"
+typeof [1,2,3];             // "object"
+typeof function hello(){};  // "function"
+```
 
 <br>
