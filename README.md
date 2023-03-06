@@ -51,7 +51,7 @@
 
 example
 
-```
+```javascript
 // ES2019 new method
 if (!Promise.prototype.finally) {
   // provide an implementation with valid ES2015 syntax
@@ -101,11 +101,11 @@ if (!Promise.prototype.finally) {
 <br>
 
 ## Value Type Determination
-- ```typeof```keyword returns inconsistent results.
+- ```typeof``` keyword returns inconsistent results (look at null/undefined and array/function)
 
 example
 
-```
+```javascript
 typeof undefined;           // "undefined"
 typeof null;                // "object"
 typeof { "a": 1 };          // "object"
@@ -113,4 +113,67 @@ typeof [1,2,3];             // "object"
 typeof function hello(){};  // "function"
 ```
 
+<br>
+
+## Declaring and Using Variables
+- ```var```: function scoped variable 
+- ```let```: block scoped variable 
+- ```const```: block scoped constant
+- ```function```: like ```var```
+- function parameter: like ```var``` but inside the function where is declared
+- declare exception variable in ```catch()``` is like ```let```
+
+example
+
+```javascript
+if (adult) {
+    var myName = "Kyle";
+    let age = 39;
+}
+
+console.log(myName);
+// Kyle
+
+console.log(age);
+// Error!
+```
+
+<br>
+
+## Functions
+- 
+
+<br>
+
+## Comparisons
+- 
+
+<br>
+
+## Coercive Comparisons
+- 
+
+<br>
+
+## Classes
+- 
+
+<br>
+
+## Class Inheritance
+- 
+
+<br>
+
+## Classic Modules
+- 
+
+<br>
+
+## ES Modules
+- 
+
+<br>
+<br>
+<br>
 <br>
