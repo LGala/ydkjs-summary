@@ -119,9 +119,9 @@ typeof function hello(){};  // "function"
 - ```var```: function scoped variable 
 - ```let```: block scoped variable 
 - ```const```: block scoped constant
-- ```function```: like ```var```
-- function parameter: like ```var``` but inside the function where is declared
-- declare exception variable in ```catch()``` is like ```let```
+- ```function```: like ```var sum = () => {...}```
+- function parameter: block scoped variable (like ```let```)
+- declare exception variable in ```catch()```: block scoped variable (like ```let```)
 
 example
 
@@ -140,13 +140,11 @@ console.log(age);
 
 <br>
 
-## Functions
-- 
-
-<br>
-
 ## Comparisons
-- 
+- ```===``` check value and type equality for primitives values (most of the time)
+- ```NaN === NaN``` is ```false```, in that case, is better using ```Number.isNaN(..)```
+- ```0 === -0``` is ```true```
+- another way to solve the ```===```strange equalities is using ```Object.is(..)```, which is the true check value and type equality method for primitives values.
 
 <br>
 
