@@ -149,7 +149,7 @@ console.log(age);
 <br>
 
 ## Coercive Comparisons
-- 
+- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
 
 <br>
 
