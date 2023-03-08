@@ -153,25 +153,37 @@ console.log(age);
 
 <br>
 
-## Classes
-- 
-
-<br>
-
-## Class Inheritance
-- 
-
-<br>
-
 ## Classic Modules
-- 
+- just functions
+
+example
+
+```javascript
+function Publication(title,author,pubDate) {
+    var publicAPI = {
+        print() {
+            console.log(`
+                Title: ${ title }
+                By: ${ author }
+                ${ pubDate }
+            `);
+        }
+    };
+
+    return publicAPI;
+}
+```
 
 <br>
 
 ## ES Modules
-- 
+- ```ìmport```just use the same variable reference ```export```ed
 
 <br>
 <br>
 <br>
+<br>
+
+# Get Started - 2nd edition - Chapter 3 - Digging to the Roots of JS
+
 <br>
