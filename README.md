@@ -187,3 +187,45 @@ function Publication(title,author,pubDate) {
 # Get Started - 2nd edition - Chapter 3 - Digging to the Roots of JS
 
 <br>
+
+## Iteration
+- Iterator is a data struct that iterates/retrieves data one chunk at a time (like stream)
+- `next()` returns the next chunk, that's an object with `done`and `value` property
+
+<br>
+
+## Consuming Iterators
+- `for..of` and `...` can consume iterables (= objects with the iteration protocol implemented)
+- strings, arrays, maps, sets are iterables
+
+<br>
+
+## Closure
+- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+
+<br>
+
+## Iterables
+- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+
+<br>
+
+## this Keyword
+- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+
+<br>
+
+## Prototypes
+- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+
+<br>
+
+## Object Linkage
+- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+
+<br>
+
+## this Revisited
+- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+
+<br>
