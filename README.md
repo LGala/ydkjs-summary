@@ -177,7 +177,7 @@ function Publication(title,author,pubDate) {
 <br>
 
 ## ES Modules
-- ```ìmport```just use the same variable reference ```export```ed
+- `ìmport` just use the same variable reference `export` ed
 
 <br>
 <br>
@@ -201,31 +201,31 @@ function Publication(title,author,pubDate) {
 <br>
 
 ## Closure
-- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+- 
 
 <br>
 
 ## Iterables
-- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+- 
 
 <br>
 
 ## this Keyword
-- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+- 
 
 <br>
 
 ## Prototypes
-- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+- 
 
 <br>
 
 ## Object Linkage
-- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+- 
 
 <br>
 
 ## this Revisited
-- ```==```, ```>```, ```<```, ```>=```, ```<=``` permits coercion
+- 
 
 <br>
